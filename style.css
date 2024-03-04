@@ -1,6 +1,4 @@
 body {
-	margin-left:200px;
-	margin-right:200px;
 	padding:0 auto;
 	font-family: 'Quicksand', sans-serif;
 	font-size:22px;
@@ -125,6 +123,8 @@ nav.opened .btn-hamburger span:nth-child(3) {
 		position: fixed;
 		left: 0;
 		right: 0;
+		margin-left:0px;
+		margin-right:0px;
 		top: 70px;
 		bottom: 100%;
 		display: flex;
@@ -298,6 +298,14 @@ div.desc {
 	color:#666666; border-bottom:none; border-width: short;}
 .linkwhite{color:#cc0066;}
 .linkwhite:hover{color:#fd1e8e;}
+
+@media all and (max-width: 2000px) and (min-width: 1000px) {
+	body {
+		margin-left:200px;
+		margin-right:200px;
+	}
+  }
+
 @media only screen and (max-width: 700px) {
   .responsive {
     width: 49.99999%;
