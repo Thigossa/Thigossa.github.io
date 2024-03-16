@@ -55,23 +55,28 @@
 	}
 	@media screen and (max-width: 600px) {
 	.row {
-      	flex-direction: column;
+      	flex-direction: column-reverse;
     }
-	.columnr {
-		-ms-flex: 100%;
-		flex: 100%;
-		max-width: 100%;
-		order: 1;
-	}
 	.columnl {
+		width: 100%;
 		-ms-flex: 100%;
 		flex: 100%;
 		max-width: 100%;
-		float:left;
+		float: none;
 		vertical-align: text-top;
 		width: 100%;
+		order: 1;
+		}
+	.columnr {
+		width: 100%;
+		-ms-flex: 100%;
+		flex: 100%;
+		max-width: 100%;
 		order: 2;
 		}
+	}
+	p{
+		line-height: 26px;
 	}
 	</style>
 
@@ -163,11 +168,11 @@
 		</div>
 		<div class="columnr">
 			<hr id="hredit"/>
-			<p style="font-size: 12px;">KLIJENT</p>
+			<p style="font-size: 16px;">KLIJENT</p>
 			<p div="righttxt" style="font-size: 18px;">Harfa International School</p>
 			<hr id="hredit"/>
-			<p style="font-size: 12px;">OPIS PROJEKTA:</p>
-		  	<p>Oblikovanje bannera koji predstavlja Harfa International School,
+			<p style="font-size: 16px;">OPIS PROJEKTA:</p>
+		  	<p style="font-size: 18px;">Oblikovanje bannera koji predstavlja Harfa International School,
 				pripema za print i organizacija izrade roll upa</p>
 			
 			<hr id="hredit"/>

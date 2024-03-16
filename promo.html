@@ -10,7 +10,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"> 
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 <style>
 	* {
 	  box-sizing: border-box;
@@ -55,23 +54,28 @@
 	}
 	@media screen and (max-width: 600px) {
 	.row {
-      	flex-direction: column;
+      	flex-direction: column-reverse;
     }
-	.columnr {
-		-ms-flex: 100%;
-		flex: 100%;
-		max-width: 100%;
-		order: 1;
-	}
 	.columnl {
+		width: 100%;
 		-ms-flex: 100%;
 		flex: 100%;
 		max-width: 100%;
-		float:left;
+		float: none;
 		vertical-align: text-top;
 		width: 100%;
+		order: 1;
+		}
+	.columnr {
+		width: 100%;
+		-ms-flex: 100%;
+		flex: 100%;
+		max-width: 100%;
 		order: 2;
 		}
+	}
+	p{
+		line-height: 26px;
 	}
 	</style>
 
