@@ -175,7 +175,7 @@ a:hover{
 	height:70px;
 	padding: 10px;}
 #logohome{
-	height:100px;
+	height:auto;
 	width:100%;}
 .home{
 	background-image:url("slike/home-image.jpg");
@@ -244,16 +244,16 @@ div.desc {
     margin-right: -100%;}
 .digitalpublishing{
 	margin-top:50px;
-	height:500px;
+	height: auto;
     text-align: center;}
 .dtp{
-	height:500px;
+	height: auto;
 	text-align: center;}
 .webdesign{
-	height:500px;
+	height: auto;
     text-align: center;}
 .print{
-	height:500px;
+	height: auto;
     text-align: center;}
 
 .tact{
@@ -317,6 +317,10 @@ div.desc {
   nav .btn-hamburger {
 	margin-right:0px;
   }
+  .home{
+	margin: 0px;
+  }
+
 }
 @media only screen and (max-width: 500px) {
   .responsive {
@@ -342,11 +346,16 @@ div.desc {
 		margin-top: 100px;
 	}
 	.webdesign{
-		margin-top: 100px;
+		margin-top: 80px;
 	}
 	.print{
 		margin-top: 80px;
-		height:650px;
+	}
+	.dtp{
+		margin-top: 80px;
+	}
+	.home{
+		height: 400px;
 	}
 }
 @media screen and (max-width: 600px) {
@@ -355,14 +364,19 @@ div.desc {
 		max-width: 100%;
 	}
 	.digitalpublishing{
-		margin-top: 700px;
+		margin-top: 50px;
 	}
 	.webdesign{
-		margin-top: 700px;
+		margin-top: 0px;
 	}
 	.print{
-		margin-top: 700px;
-		height: 1200px;
+		margin-top: 0px;
+	}
+	.dtp{
+		margin-top: 0px;
+	}
+	#empty{
+		height: 0px;
 	}
 	#webspec{
 		margin-top: 50px;
