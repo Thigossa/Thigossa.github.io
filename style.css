@@ -198,6 +198,8 @@ a:hover{
 	opacity: 1;}
 #empty{
 	visibility: hidden;
+	height: 0;
+	width: 0;
 }
 
 .dtp:after {
@@ -258,7 +260,7 @@ div.desc {
 
 .tact{
 	margin: auto;
-  	width: 50%;
+  	width: 100%;
   	padding: 10px;
 	text-align: center;
 	margin-bottom: 250px;
@@ -305,6 +307,12 @@ div.desc {
 		margin-right:200px;
 	}
   }
+  @media screen and (max-width: 1600px) {
+	.gallery {
+		width: 32%;
+	  	max-width: 50%;
+	}
+}
 
 @media only screen and (max-width: 700px) {
   .responsive {
@@ -339,7 +347,7 @@ div.desc {
 }
 @media screen and (max-width: 978px) {
 	.gallery {
-	  	width: 50%;
+	  	width: 49%;
 	  	max-width: 50%;
 	}
 	.digitalpublishing{
@@ -358,7 +366,7 @@ div.desc {
 		height: 400px;
 	}
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
 	.gallery {
 		width: 100%;
 		max-width: 100%;
@@ -386,10 +394,5 @@ div.desc {
 	}
 	#printspec{
 		margin-top: 50px;
-	}
-	#pinklogo{
-		max-width:100%;
-		width:100%;
-		height:auto;
 	}
 }
